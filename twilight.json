@@ -315,7 +315,7 @@
                     "format": "switch",
                     "required": false,
                     "value": false,
-                    "selected": false
+                    "selected": true
                 },
                 {
                     "type": "static",

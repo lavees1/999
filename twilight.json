@@ -332,7 +332,7 @@
                     "format": "switch",
                     "required": false,
                     "value": true,
-                    "selected": true
+                    "selected": false
                 },
                 {
                     "type": "boolean",
@@ -364,7 +364,8 @@
                             "operation": "=",
                             "value": true
                         }
-                    ]
+                    ],
+                    "value": []
                 },
                 {
                     "id": "links",
@@ -418,7 +419,7 @@
                             "icon": "sicon-link",
                             "label": "الرابط",
                             "id": "links.url",
-                            "value": null,
+                            "value": [],
                             "description": null,
                             "required": false,
                             "format": "variable-list",

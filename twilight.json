@@ -813,37 +813,74 @@
             "path": "121",
             "fields": [
                 {
-                    "id": "alnshrh_alaaaneh",
-                    "type": "static",
-                    "format": "title",
-                    "label": "النشره الاعنيه",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-text"
-                },
-                {
-                    "id": "adkhl_klamk_hna",
+                    "id": "description",
                     "type": "static",
                     "format": "description",
-                    "label": "ادخل كلامك هنا",
+                    "label": "Description",
                     "value": "<marquee direction=\"right\"><h1>   <font face=\"Andalus\" size=\"6\" color=brwon>وزان الجوهرة عالم المنوعات </font>    <h1/></marquee>",
                     "variant": "h1",
                     "icon": "sicon-format-size"
                 },
                 {
-                    "id": "slider",
-                    "type": "number",
-                    "format": "slider",
-                    "inputType": "range",
-                    "label": "Slider",
+                    "id": "collection",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
                     "description": null,
                     "labelHTML": null,
-                    "icon": "sicon-pin",
-                    "value": "-5",
-                    "required": false,
-                    "step": null,
-                    "minimum": -50,
-                    "maximum": 50
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "collection.code",
+                            "type": "string",
+                            "format": "code",
+                            "label": "Code",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "اكتب هنا",
+                            "icon": "sicon-browser-code",
+                            "value": "<marquee direction=\"right\"><h1>   <font face=\"Andalus\" size=\"6\" color=brwon>وزان الجوهرة عالم المنوعات </font>\n\n\n\n<h1/></marquee>",
+                            "required": false
+                        },
+                        {
+                            "id": "collection.hsom",
+                            "type": "items",
+                            "format": "radio-list",
+                            "label": "Radio List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-list",
+                            "selected": [],
+                            "options": [
+                                {
+                                    "label": null,
+                                    "value": null,
+                                    "key": "b1400b03-05bc-4ebd-8dd2-e6c232a867d5"
+                                }
+                            ],
+                            "source": "Manual",
+                            "required": false
+                        },
+                        {
+                            "id": "collection.text_area",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "Text Area",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Your text here",
+                            "icon": "sicon-typography",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 20,
+                            "maxLength": 255
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
                 }
             ]
         }

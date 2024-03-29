@@ -805,6 +805,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "2fdd467c-27b3-47d2-ad20-82ae7881a3d7",
+            "title": "نشره",
+            "icon": "sicon-hr",
+            "path": "121",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
